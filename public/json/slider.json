@@ -1,0 +1,23 @@
+[
+  {
+    "image" : "./img/slider/1.jpg",
+    "title" : "Slider1",
+    "text" : ""
+  },
+  {
+    "image" : "./img/slider/2.jpg",
+    "title" : "Slider2",
+    "text" : ""
+  },
+  {
+    "image" : "./img/slider/3.jpeg",
+    "title" : "Slider3",
+    "text" : ""
+  },
+  {
+    "name" : "Slider1",
+    "image" : "./img/slider/4.jpeg",
+    "title" : "Slider4",
+    "text" : ""
+  }
+]

@@ -1,0 +1,43 @@
+.drago-otherland__component {
+  box-sizing:border-box;
+  .drago-header {
+    z-index:1000;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    max-width:100%;
+    background: #333;
+    color:#fff;
+    border-bottom:3px solid $primary-color;
+    .drago-header__container {
+      margin: 0 auto;
+      max-width:80em;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      @media all and (max-width: 40em) {
+        flex-direction:column;
+      }
+    }
+    .drago-header__logo {
+      padding:10px;
+      img {
+        max-height:70px;
+      }
+    }
+    .drago-header__menu {
+      padding:10px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      .drago-header__menu-item {
+        margin-left:10px;
+        a {
+          color:#fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

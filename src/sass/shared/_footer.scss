@@ -1,0 +1,31 @@
+.drago-otherland__component {
+  box-sizing: border-box;
+  .drago-footer {
+    z-index:1000;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    max-width:100%;
+    background: #333;
+    color:#fff;
+    border-top:3px solid $primary-color;
+    .drago-footer__container {
+      margin: 0 auto;
+      max-width:80em;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .drago-footer-item {
+      margin-left:10px;
+      padding:10px 0;
+      a {
+        color:#fff;
+        text-decoration: none;
+
+      }
+    }
+  }
+}
