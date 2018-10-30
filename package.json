@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "react-html-parser": "^2.0.2",
     "sass-loader": "^7.1.0"
   }
 }

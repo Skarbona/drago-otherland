@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+.drago-slider-item {
+  ::-webkit-scrollbar {
+    width:15px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#fff,$primary-color,#fff);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,162,0,0.5);
+}

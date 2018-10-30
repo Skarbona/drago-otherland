@@ -8,8 +8,15 @@
     left:0;
     max-width:100%;
     background: #333;
+    background-image: url("assets/img/elements/footer.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color:#fff;
     border-top:3px solid $primary-color;
+    @media all and (max-width: 40em) {
+      position:static;
+    }
     .drago-footer__container {
       margin: 0 auto;
       max-width:80em;
@@ -17,14 +24,42 @@
       justify-content:center;
       align-items:center;
       flex-wrap:wrap;
+      position:relative;
+      @media all and (max-width: 40em) {
+        background-image: url("assets/img/elements/footer.jpg");
+        background-size:cover;
+        background-position: center;
+        border-top:3px solid $primary-color;
+      }
+    }
+    .drago-footer__copyright {
+      display:flex;
+      justify-content:flex-end;
+      align-items:flex-end;
+      position:absolute;
+      bottom:0;
+      right:0px;
+      padding:5px;
+      @media all and (max-width: 40em) {
+        position:static;
+      }
+      a {
+        color:#fff;
+        font-size:10px;
+        text-decoration: none;
+      }
     }
     .drago-footer-item {
-      margin-left:10px;
-      padding:10px 0;
+      margin: 0;
+      &:hover {
+        background: rgba(255,255,255,0.2);
+      }
       a {
         color:#fff;
         text-decoration: none;
-
+        padding: 5px 20px;
+        margin:5px 0;
+        display:block;
       }
     }
   }

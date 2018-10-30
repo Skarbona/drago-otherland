@@ -13,9 +13,11 @@ class Main extends Component {
        headers: [],
        footers: [],
        sliders: [],
+       extra_data: {},
        loadingHeader: false,
        loadingFooter: false,
        loadingSlider: false,
+       loadingExtraData: false,
    };
 
    componentDidMount = () => {
@@ -45,21 +47,35 @@ class Main extends Component {
                })
            })
            .catch(error => console.log(error));
+
+       axios.get('./json/extra-data.json')
+           .then(response => {
+               this.setState({
+                   extra_data: response.data,
+                   loadingExtraData: false,
+               })
+           })
+           .catch(error => console.log(error));
    };
 
 
     render() {
 
-        const  { loadingHeader, loadingFooter, loadingSlider, headers, footers, sliders } = this.state ;
+        const  {
+            loadingHeader, loadingFooter, loadingSlider, loadingExtraData,
+            headers, footers, sliders, extra_data
+        } = this.state ;
 
         let content = <Loading />;
 
-        if(!loadingHeader && !loadingFooter && !loadingSlider) {
+        if(!loadingHeader && !loadingFooter && !loadingSlider && !loadingExtraData) {
             content = (
                 <React.Fragment>
                     <Header menuItems={headers} />
                     <MainBody sliders={sliders} />
-                    <Footer footerItems={footers} />
+                    <Footer footerItems={footers}
+                            copyright={extra_data.copyright}
+                    />
                 </React.Fragment>
             );
         }
