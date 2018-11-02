@@ -14,7 +14,7 @@ class MainBody extends Component {
         const settings = {
             dots: true,
             infinite: false,
-            arrows: false,
+            arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1
         };

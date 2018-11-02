@@ -123,6 +123,11 @@
           width:100%;
         }
       }
+      .slick-next,.slick-prev {
+        @media all and (max-width:60em) {
+          visibility:visible;
+        }
+      }
 
     }
   }
@@ -155,11 +160,17 @@
       }
     }
   }
+
   .slick-next,.slick-prev {
     z-index:1000;
+    @media all and (max-width:60em) {
+      visibility:hidden;
+    }
+
   }
   .slick-next {
     right:25px;
+
   }
   .slick-prev {
     left:25px;
