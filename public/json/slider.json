@@ -1,23 +1,86 @@
 [
   {
-    "image" : "./img/slider/1.jpg",
+    "image" : "./img/slider/site_1.jpg",
     "title" : "Slider1",
-    "text" : ""
+    "text" : "The fascinating multiverse of Tad William’s critically acclaimed Otherland novels transformed into a full scale MMORPG with a new storyline to discover.",
+    "configuration": {
+      "title" : {
+        "show": false
+      },
+      "gallery": {
+        "show": false
+      },
+      "video": {
+        "show": true,
+        "videoID": "ARtCAoUWHnU"
+      }
+    }
   },
   {
-    "image" : "./img/slider/2.jpg",
+    "image" : "./img/slider/site_6.jpg",
     "title" : "Slider2",
-    "text" : ""
+    "text" : "The multiverse of Otherland consist of a multitude of game worlds ranging from SciFi to Medieval with an incredible diversity in environments paired with gorgeous graphics delivered by the Unreal Engine.<br/><br/> The idea behind Otherland is a virtual network of simulated worlds with something for everyone, ranging from the futuristic Lambda Mall, the medieval 8Squared, a steampunk oriented Mars or the Asia-themend 5Isles.<br/><br/> Become part of the Otherland network and experience these story-rich worlds by helping their inhabitants fight the NeoGrail set on their destruction. <br/><br/> Otherland: Next features a wide range of mechanics and activities such a challenges, dungeons, PvP battlegrounds, trading, player housing or guild areasjust to mention a few.",
+    "configuration": {
+      "title" : {
+        "show": true
+      },
+      "gallery": {
+        "show": false
+      },
+      "video": {
+        "show": false
+      }
+    }
   },
   {
-    "image" : "./img/slider/3.jpeg",
+    "image" : "./img/slider/site_2.jpg",
     "title" : "Slider3",
-    "text" : ""
+    "text" : "Otherland: Next comes with 4 classes, each of them able to switch between two roles:<br/><br/> The <b>Warrior</b> can be either a tank or damage dealer with just a switch of a stance. Specialized in close quarter combat and high endurance the warrior is an excellent choice for melee combat.<br/><br/> The <b>Assassin’s</b> domain on the other hand is staying in the shadows, pick the fights on his own terms and unleash massive damage in a short amount of time. While rather fragile, the assassin class can switch to a tanking role using avoidance rather than sheer endurance.<br/><br/> The <b>Marksman</b> keeps his enemies at range utilizing bows and firearms and is the supreme ranged combat class of Otherland. With a switch of a stance he can also aid his team with healing and buffs.<br/><br/> The <b>Energizer</b> uses large energy weapons and is the supreme healer in Otherland.Energizers can also quickly switch their role to a very capable ranged damage dealer.<br/><br/> A 5th class is available for those who only want to enter Otherland to socialize.",
+    "configuration": {
+      "title" : {
+        "show": true
+      },
+      "gallery": {
+        "show": false
+      },
+      "video": {
+        "show": false
+      }
+    }
   },
   {
-    "name" : "Slider1",
-    "image" : "./img/slider/4.jpeg",
+    "name" : "Slider4",
+    "image" : "./img/slider/site_3.jpg",
     "title" : "Slider4",
-    "text" : ""
+    "text" : "Otherland: Next offers in-depth character customization starting with the character’s look itself all the way to gearing up.<br/><br/> Here you’ll find one of the most advanced and detailed crafting systems that allows you define individual stats of items you craft. Those items then can be further customized by adding mods into sockets or even use special items to change stats on already crafted items.<br/><br/> Players can also craft or buy costumes which will apply the looks to the character while keeping the stats of the equipped gear set. There are even vanity outfits following a wide range of visual themes allowing you to further customize the looks of your characters.<br/><br/> The customization is not just about look. With a wide selection of skills for each class you also get to build your character the way that fits your playstyle best.",
+    "configuration": {
+      "title" : {
+        "show": true
+      },
+      "gallery": {
+        "show": false
+      },
+      "video": {
+        "show": false
+      }
+    }
+  },
+  {
+    "name" : "Slider5",
+    "image" : "./img/slider/site_7.jpg",
+    "title" : "Slider5",
+    "text" : "",
+    "configuration": {
+      "title" : {
+        "show": true
+      },
+      "gallery": {
+        "show": true,
+        "galleryItems": ["./img/gallery/site_7.jpg", "./img/gallery/site_2.jpg", "./img/gallery/site_1.jpg", "./img/gallery/site_5.jpg","./img/gallery/site_4.jpg"]
+      },
+      "video": {
+        "show": false
+      }
+    }
   }
 ]

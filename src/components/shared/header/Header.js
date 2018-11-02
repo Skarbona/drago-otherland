@@ -17,7 +17,9 @@ const Header = ({menuItems}) => {
         <div className="drago-header">
             <div className="drago-header__container">
                <div className="drago-header__logo">
-                  <img src="./img/otherland-logo.jpg" alt="otherland logo"/>
+                   <a href="/">
+                    <img src="./img/logo-otherland.png" alt="otherland logo"/>
+                   </a>
                </div>
                 <div className="drago-header__menu">
                     {menu}

@@ -1,22 +1,32 @@
 [
   {
     "name" : "MMRewars",
-    "link" : "http://onet.pl",
-    "icon" : ""
+    "link" : "https://mmorewards.com/game/otherlandnext/",
+    "icon" : "./img/icon/mmrewards.png"
   },
   {
     "name" : "Steam",
-    "link" : "http://onet.pl",
-    "icon" : ""
+    "link" : "https://store.steampowered.com/app/376310/Otherland_MMO/",
+    "icon" : "./img/icon/steam.png"
   },
   {
     "name" : "Facebook",
-    "link" : "http://onet.pl",
-    "icon" : ""
+    "link" : "https://www.facebook.com/otherlandthegame/",
+    "icon" : "./img/icon/fb.png"
   },
   {
     "name" : "Twitter",
-    "link" : "http://onet.pl",
-    "icon" : ""
+    "link" : "https://twitter.com/OtherlandMMORPG",
+    "icon" : "./img/icon/twitter.png"
+  },
+  {
+    "name" : "Terms & Conditions",
+    "link" : "/",
+    "icon" : "./img/icon/terms.png"
+  },
+  {
+    "name" : "Privacy Policy",
+    "link" : "/",
+    "icon" : "./img/icon/privacy.png"
   }
 ]

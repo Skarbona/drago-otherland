@@ -3,10 +3,15 @@ body {
   padding:0;
   color:#333;
   box-sizing:border-box;
+  line-height:1.5;
 
 }
 .drago-otherland__component {
   min-height:100vh;
   height:100%;
   width:100%;
+}
+
+b {
+  color: $primary-color;
 }
